@@ -11,7 +11,8 @@ header{
     display: flex;
     justify-content: center;
     margin-bottom: 40px;
-    border-radius: 0 0 9px 9px;
+    border-radius: 0 0 30px 30px;
+    border: 1px solid rgb(197, 119, 45);
 }
 
 header h1{
@@ -29,7 +30,7 @@ header h1{
     display: flex;
     align-items: center;
     flex-direction: column;
-    border-radius: 5px;
+    border-radius: 0 0 11px 11px;
     border: 1px solid rgb(211, 205, 205);
     padding: 15px;
     margin-bottom: 20px;
@@ -38,11 +39,15 @@ header h1{
 button{
     cursor: pointer;
     background-color: #bb8343;
-    border: 2px solid rgb(211, 205, 205);
+    border: 1px solid rgb(197, 119, 45);
     border-radius: 6px;
     margin-bottom: 5px;
-    width: 70px;
-    height: 50px;
+    width: 110px;
+    height: 40px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: azure;
+    font-size: 14px;
 }
 
 .containerProduto h3{
@@ -75,7 +80,7 @@ button{
 }
 
 .especificacaoCompraDetalhes h3{
-    color: #0e0d0d;
+    color: #ffff;
     font-weight: 600;
     font-family: sans-serif;
     margin-top: 10px;
@@ -87,6 +92,7 @@ button{
     font-weight: 400;
     font-size: 16px;
     margin-top: 0;
+    color: #ffff;
 }
 
 .valorTotal{
@@ -125,7 +131,7 @@ button{
 .containerDescricao1 h3{
     margin: 3px 0;
     font-family: sans-serif;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .containerDescricao2{
@@ -136,15 +142,15 @@ button{
     align-items: center;
 }
 
-.containerDescricao2 h2{
+.containerDescricao2 h4{
     margin-top: 8px;
     font-style: italic;
-    font-family: sans-serif;
-    font-weight: 100;
-    font-size: 18px;
+    font-weight: 500;
+    font-size: 17px;
+    color: #2b2828;
 }
 
 .containerDescricao2 img{
-    width: 32px;
+    width: 42px;
     margin-top: 10px;
 }
